@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: #f5f8ff;
+}
+
+/* shared styles */
+.primary-color{
+    color: #4E47FF;
+}
+.primary-btn{
+    font-family: "raleway";
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: white;
+    border-radius: 10px;
+}
+
+
+.raleway-main {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-second {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* header styles */
+header{
+    background-image: url(../assets/Hero-bg.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* nav styles */
+.navbar{
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3{
+    font-family: "inter";
+    font-size: 34;
+    font-weight: 900;
+    padding: 50px 0;
+}
+
+/* hero styles */
+.hero-items{
+    width: 905px;
+    margin: 158px auto;
+    
+}
+.hero-heading h3{
+    color: #252432;
+    font-family: "raleway";
+    font-size: 65px;
+    font-weight: bold;
+    text-align: center;
+}
+.hero-btn{
+    width: 174px;
+    margin: 37px auto 152px;
+    text-align: center;
+}
+
+/* Header section end */
+
+/* Main section start */
+
+section{
+    width: 1140px;
+    margin: 116px auto;
+}
+.first-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.image-details{
+    width: 517px;
+}
+.image-heading{
+    font-family: "inter";
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.image-description{
+    font-family: "inter";
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0;
+}
+.image img{
+    border-radius: 48px;
+}
+.image-btn{
+    width: 160px;
+    text-align: center;
+}
+
+/*  First section End*/
+
+/* Second section Start */
+
+.second{
+    background-color: rgb(228, 230, 255);
+    border-radius: 24px;
+}
+.second-section{
+    padding: 50px 142px;
+}
+.second-section-heading{
+    text-align: center;
+    font-family: "raleway";
+    font-weight: bold;
+    font-size: 38px;
+    color: #252432;
+}
+.heading-items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.items p{
+    text-align: center;
+    font-family: "inter";
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.items .main{
+    font-family: "inter";
+    font-weight: bold;
+    font-size: 80px;
+    color: #4E47FF;
+}
+/* second section end */
+
+
+/* third section start */
+
+.third{
+    background-color: white;
+    border-radius: 14px;
+}
+.third-section{
+    padding: 71px 150px;
+    text-align: center;
+}
+.section-heading{
+    font-family: "raleway";
+    font-weight: bold;
+    font-size: 50px;
+    color: #252432;
+}
+.section-description{
+    font-family: "inter";
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 20px 0;
+}
+.section-btn{
+    border: none;
+    margin-bottom: 20px;
+}
+.third-section img{
+    border-radius: 48px;
+}
