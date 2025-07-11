@@ -358,4 +358,9 @@ footer{
     font-weight: 400;
     color: #8987A1;
     margin-bottom: 20px;
+    transition: 1s ease;
+}
+.footer-nav ul li a:hover{
+    color: #100d80;
+    transition: 1s ease;
 }
