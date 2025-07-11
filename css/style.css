@@ -49,9 +49,8 @@ body{
 /* header styles */
 header{
     background-image: url(../assets/Hero-bg.png);
-    height: 100vh;
+    height: 698px;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
 }
 
@@ -77,7 +76,8 @@ header{
 /* hero styles */
 .hero-items{
     width: 905px;
-    margin: 158px auto;
+    margin: 150px auto;
+    align-items: center;
     
 }
 .hero-heading h3{
