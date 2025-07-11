@@ -243,3 +243,66 @@ section{
 .fourth-section img{
     border-radius: 48px;
 }
+
+/* fourth section end */
+
+/* fifth section start */
+
+.fifth-section{
+    display: flex;
+    padding: 71px 0;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.fifth-sec-heading{
+    font-family: "raleway";
+    font-weight: bold;
+    font-size: 97px;
+    color: #252432;
+    width: 528px;
+}
+.fifth-sec-form .form-group label{
+    font-family: "inter";
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    display: block;
+    
+}
+.form-group{
+    width: 500px;
+}
+
+.form-group input{
+    padding: 20px;
+    margin: 10px 0 20px;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    font-family: "inter";
+    color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+.form-group p{
+    text-align: center;
+}
+textarea{
+    padding: 20px;
+    margin: 10px 0 20px;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
+    font-family: "inter";
+    color:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    
+}
+
+/* fifth section end */
+
+/* footer section start */
