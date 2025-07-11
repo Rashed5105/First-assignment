@@ -17,8 +17,15 @@ body{
     background-color: #4E47FF;
     color: white;
     border-radius: 10px;
+    transition: 1s ease;
+    cursor: pointer;
 }
 
+.primary-btn:hover{
+    background-color: #100d80;
+    color: white;
+    transition: 1s ease;
+}
 
 .raleway-main {
   font-family: "Raleway", sans-serif;
